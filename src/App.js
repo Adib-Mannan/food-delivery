@@ -32,7 +32,6 @@ function App() {
           }
         />
 
-
         <Route path="dashboard" element={<Dashboard />}>
           <Route path="orders" element={<Orders />} />
           <Route path="successfulOrder" element={<SuccessfulOrder />} />
@@ -40,7 +39,6 @@ function App() {
           <Route path="products" element={<Products />} />
           <Route path="addProduct" element={<AddProducts />} />
         </Route>
-
 
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
